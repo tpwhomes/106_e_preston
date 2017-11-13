@@ -246,28 +246,28 @@
 
 
 	// Google Map Settings
-	if($('#map-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map-location',
-			zoom: 14,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			//39.304676, -76.613872
-			lat: 39.304676,
-			lng: -76.613872
-		  });
+	// if($('#map-location').length){
+	// 	var map;
+	// 	 map = new GMaps({
+	// 		el: '#map-location',
+	// 		zoom: 14,
+	// 		scrollwheel:false,
+	// 		//Set Latitude and Longitude Here
+	// 		//39.304676, -76.613872
+	// 		lat: 39.304676,
+	// 		lng: -76.613872
+	// 	  });
 
-		  //Add map Marker
-		  map.addMarker({
-			lat: 39.304676,
-			lng: -76.613872,
-			infoWindow: {
-			  content: '<p style="text-align:center;"><strong>The Inn</strong><br>106 E Preston St, Baltimore MD</p>'
-			}
+	// 	  //Add map Marker
+	// 	  map.addMarker({
+	// 		lat: 39.304676,
+	// 		lng: -76.613872,
+	// 		infoWindow: {
+	// 		  content: '<p style="text-align:center;"><strong>The Inn</strong><br>106 E Preston St, Baltimore MD</p>'
+	// 		}
 
-		});
-	}
+	// 	});
+	// }
 
 
 	// Scroll to top
